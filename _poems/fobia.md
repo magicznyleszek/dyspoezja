@@ -1,0 +1,16 @@
+---
+title: Fobia
+year: 2017
+---
+
+Autobus zgniecienia
+Lepki od szeptów
+Spętany wzrokiem
+Demon w świątyni
+Miliona oczu
+Śmieją się
+Duszą szyderstwem
+Dłońmi przy twarzy
+Nie odwracają wzroku
+Wiem co myślą
+Znam ich usta

@@ -1,0 +1,25 @@
+---
+title: Dyskalkuljia
+year: 2016
+---
+
+Czternaście
+Cztery
+Dwa
+Dwadzieścia
+Dwanaście
+Dziesięć
+Dziewięć
+Dziewiętnaście
+Jeden
+Jedenaście
+Osiem
+Osiemnaście
+Pięć
+Piętnaście
+Siedem
+Siedemnaście
+Szesnaście
+Sześć
+Trzy
+Trzynaście

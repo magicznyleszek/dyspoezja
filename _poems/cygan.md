@@ -1,0 +1,16 @@
+---
+title: Cygan
+year: 2011
+---
+
+Szybki cygan
+Elektryczny ogrodowy
+Próbowałem
+To zauważyć
+Ale nie
+Chycnąłęm
+Teraz nim
+Kręcę
+Biegam
+Niebezpiecznie
+Prze pasy

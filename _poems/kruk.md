@@ -1,0 +1,20 @@
+---
+title: Kruk
+year: 2015
+---
+
+Błękity
+Skażone
+Lustrem
+Zwęglone
+Szeregi
+Palców
+Szeleszczą
+W izolacji
+Atomów
+Funkcji
+Negatywny
+Anonim
+Deptanych
+Śladow
+Zapałek

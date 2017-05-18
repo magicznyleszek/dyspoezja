@@ -1,0 +1,38 @@
+---
+title: Konfitura/idee
+year: 2011
+---
+
+Niezwykły
+Niezwykłości
+Rękę dam sobie
+Unieść
+By uruchomić
+Rację wewnątrz
+U góry
+Nie tylko
+Muzyki brak
+(Jeśli liczyć
+Tylko harmonię)
+Jest:
+A. konfitura
+B. idee
+Stąd takie
+Rozumienie
+Że pożądane
+Poza świadomością
+Elementy B
+Stąd takie
+Że potykane
+Miejscami
+Czasami
+Elementy A
+Należy
+Uruchomić
+Umieścić
+Niezwykły
+Odnaleźć
+Rękę dam
+Sobie bo
+Cóż więcej
+Jest

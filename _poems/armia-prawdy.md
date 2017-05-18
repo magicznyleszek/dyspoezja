@@ -1,0 +1,24 @@
+---
+title: Armia prawdy
+year: 2017
+---
+
+Śmiertelny wirus
+Tłamszący cudowność
+Pulchnych ciał
+Nagości nieznanego
+Niezaspokojony gigant
+Światów możliwych
+Okrutny miażdzyciel
+Pożeracz kłamstw
+Zaklęć ochronnych
+Sekretów będących
+Źródłem istnienia
+Miecz przekłuwający
+Skazę wyjątkowości
+Palącą bielą
+Poprzez serca
+Dezintegrując
+Życie istot
+Takich jak
+Ty piękna

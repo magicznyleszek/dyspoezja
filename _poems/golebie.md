@@ -1,0 +1,8 @@
+---
+title: Gołębie
+year: 2011
+---
+
+Gołębie zbyt łatwo
+Uwierzyły, że piękno
+Nie ocala

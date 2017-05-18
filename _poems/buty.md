@@ -1,0 +1,26 @@
+---
+title: Buty
+year: 2011
+---
+
+Pojedyncze
+Detal piękna
+Humanistyka
+Pojedyncze
+Wspominam
+Detale
+Buduję nimi
+Zakazany
+Cyrk
+Ja stoję
+Na środku
+Walczę
+Z lwem
+Za duże buty
+By skakać
+Ponad ziemią
+Dziurawe
+Bo ten szew
+Zaginał się
+Do środka
+Niewygodnie

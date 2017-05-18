@@ -1,0 +1,31 @@
+---
+title: Kontentacje
+year: 2011
+---
+
+A
+W życiu
+Przychodzą
+Wielkie
+Kontentacje
+
+B
+Hindusi
+Mówią
+Więcej
+Razy
+Czujemy się
+Niekomfortowo
+Niż nie
+
+C
+Ale
+W życiu
+Pryzchodzą
+Wielkie
+Kontentacje
+
+A+B+C
+W chwilach
+Wielkiej radości
+Poczuj
