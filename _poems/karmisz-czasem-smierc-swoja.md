@@ -1,6 +1,6 @@
 ---
 title: Karmisz czasem śmierć swoją
-year: 201X
+year: 2015
 ---
 
 Siedem milionów

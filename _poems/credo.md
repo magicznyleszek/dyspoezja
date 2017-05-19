@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Credo
+year: 2014
 ---
 
 Zdefiniowana

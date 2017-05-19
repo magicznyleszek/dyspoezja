@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Druid
+year: 2013
 ---
 
 Ich

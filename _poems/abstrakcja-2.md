@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Abstrakcja 2
+year: 2015
 ---
 
 Kroczyć

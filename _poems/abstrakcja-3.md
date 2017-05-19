@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Abstrakcja 3
+year: 2015
 ---
 
 Źzęąść

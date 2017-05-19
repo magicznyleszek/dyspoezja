@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Abstrakcja 1
+year: 2015
 ---
 
 Miejsce

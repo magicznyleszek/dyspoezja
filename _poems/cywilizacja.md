@@ -1,6 +1,6 @@
 ---
 title: Cywilizacja
-year: 201X
+year: 2013
 ---
 
 Nieświadome

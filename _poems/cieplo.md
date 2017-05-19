@@ -1,6 +1,6 @@
 ---
 title: Ciepło
-year: 201X
+year: 2014
 ---
 
 Puszystość

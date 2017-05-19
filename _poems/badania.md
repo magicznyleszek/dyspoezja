@@ -1,6 +1,6 @@
 ---
-title: X
-year: 201X
+title: Badania
+year: 2014
 ---
 
 Autokanonizacja
