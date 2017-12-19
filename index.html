@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Dyspoezja</h1>
+
+{% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
+
+{% for year in byYears %}
+    <h2>{{ year.name }}</h2>
+
+    {% for niewiersz in year.items %}
+        <a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a>
+        {% if forloop.last == false %}<br>{% endif %}
+    {% endfor %}
+{% endfor %}

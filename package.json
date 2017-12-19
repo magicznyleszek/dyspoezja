@@ -1,0 +1,22 @@
+{
+  "name": "smutnyleszek",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Niewiersze",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smutnyleszek/dyspoezja.git"
+  },
+  "author": "Leszek Pietrzak",
+  "license": "CC0 4.0 BY-NC-ND",
+  "bugs": {
+    "url": "https://github.com/smutnyleszek/dyspoezja/issues",
+    "email": "smutnyleszek@gmail.com"
+  },
+  "homepage": "https://github.com/smutnyleszek/dyspoezja",
+  "scripts": {
+    "serve": "npm run jekyll-serve",
+    "jekyll-build": "jekyll build",
+    "jekyll-serve": "jekyll serve --watch --baseurl ''"
+  }
+}
