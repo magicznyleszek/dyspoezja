@@ -1,0 +1,12 @@
+---
+Wklęśnięcie
+2017
+---
+
+Niewinne strużki
+Cudzej niesamotnosci
+Z oczu omegi
+Kojącym dotykiem
+Miekkosc zapachu
+Nielekarstwa
+Przynosi chorobe
