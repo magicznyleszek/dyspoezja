@@ -1,35 +1,25 @@
-{% assign versionCache = site.time|date: "%Y-%m-%d_%H-%M-%S" %}
-
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
 
 <head>
-    {% comment %}
-        stuff that needs to be first
-    {% endcomment %}
+    {% comment %} stuff that needs to be first {% endcomment %}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    {% comment %}
-        info
-    {% endcomment %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    {% comment %} info {% endcomment %}
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <base href="{{ site.baseurl }}">
     <link rel="home" href="{{ site.baseurl }}">
     <link rel="author" href="humans.txt">
-    <link rel="copyright" href="LICENSE">
-
-    {% comment %}
-        stuff for robots
-    {% endcomment %}
+    <link rel="copyright" href="LICENSE"> 
+    
+    {% comment %} stuff for robots {% endcomment %}
     <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
-
-    {% comment %}
-        open graph
-    {% endcomment %}
+    <meta name="googlebot" content="index,follow"> 
+    
+    {% comment %} open graph {% endcomment %}
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ site.name }}">
     <meta property="og:title" content="{{ page.title }}">
@@ -38,3 +28,32 @@
 </head>
 
 <body>
+    <style media="all">
+        html {
+            min-height: 100%;
+            background-color: snow;
+            color: darkslategrey;
+            font-family: "Source Sans Pro", "Roboto", "PT Sans", "Droid Sans", "Fira Sans", "Work Sans", "Open Sans",
+    "Noto Sans", "Hind", "Dosis", "Cabin", "Verdana", "Tahoma", sans-serif;
+            font-weight: 400;
+            font-size: 100%;
+            line-height: 1.5;
+            text-rendering: optimizeLegibility;
+        }
+
+        /*
+        clever page scaling with root font size changes:
+        https://www.smashingmagazine.com/2016/05/fluid-typography/
+        */
+        html {font-size: calc(1rem + (2 - 1) * (100vw - 40rem) / (120 - 40));}
+
+        body {margin: 2rem;}
+        
+        pre {font-family: "Input Mono", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas",
+    "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;}
+
+        a:visited {color: lightslategray;}
+        a {color: darkorchid;}
+        a:hover {color: mediumorchid;}
+        a:active {color: orchid;}
+    </style>

@@ -1,5 +1,10 @@
 {% include template-start.liquid %}
 
+<a href="/">&hellip;</a>
+{% if page.previous %}<br><a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>{% endif %}
+{% if page.next %}<br><a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>{% endif %}
+<br><br>
+
 <p><time>{{ page.year }}</time></p>
 
 <h1> {{ page.title }}</h1>
