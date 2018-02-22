@@ -36,7 +36,7 @@ exclude:
 collections:
     niewiersze:
         output: true
-        permalink: /:collection/:name
+        permalink: /:collection/:name.html
 defaults:
     - scope:
         path: ''
