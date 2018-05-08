@@ -12,24 +12,24 @@ title: Spis treści @ Dyspoezja
 <h2><a name="123"></a> Rocznikowo</h2>
 
 <ul>
-{% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
-{% for year in byYears %}
-    <li>
-        {{ year.name }}
+  {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
+  {% for year in byYears %}
+  <li>
+    {{ year.name }}
 
-        <ul>
-        {% for niewiersz in year.items %}
-            <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
-        {% endfor %}
-        </ul>
-    </li>
-{% endfor %}
+    <ul>
+      {% for niewiersz in year.items %}
+      <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
 </ul>
 
 <h2><a name="abc"></a> Alfabetycznie</h2>
 
 <ul>
-{% for niewiersz in site.niewiersze %}
-    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
-{% endfor %}
+  {% for niewiersz in site.niewiersze %}
+  <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+  {% endfor %}
 </ul>
