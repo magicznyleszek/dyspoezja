@@ -1,16 +1,26 @@
 ---
 layout: default
+title: Dyspoezja
 ---
 
-<h1>Dyspoezja</h1>
+<header>
+    <p><a href="/spis-tresci">Spis treści</a></p>
+    
+    <h1>Dyspoezja</h1>
+</header>
+
+<p>Te niewiersze pisze <a href="{{ site.rootSiteUrl }}">Leszek</a>.</p>
 
 {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
-
 {% for year in byYears %}
-    <h2>{{ year.name }}</h2>
+<section>
+    <p><time>{{ year.name }}</time></p>
 
     {% for niewiersz in year.items %}
-        <a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a>
-        {% if forloop.last == false %}<br>{% endif %}
+    <article>
+        <h2><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></h2>
+        <pre>{{ niewiersz.content }}</pre>
+    </article>
     {% endfor %}
+</section>
 {% endfor %}

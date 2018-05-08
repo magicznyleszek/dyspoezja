@@ -44,10 +44,40 @@
         /*
         clever page scaling with root font size changes:
         https://www.smashingmagazine.com/2016/05/fluid-typography/
-        */
-        html {font-size: calc(1rem + (2 - 1) * (100vw - 40rem) / (120 - 40));}
 
-        body {margin: 2rem;}
+        calc(AZ + (B - A) * (100vw - CZ) / (D - C))
+        - A: min font size
+        - B: max font size
+        - C: min screen size
+        - D: max screen size
+        - Z: unit (px, rem, etc.)
+        */
+        html {font-size: calc(16px + (24 - 16) * (100vw - 480px) / (1920 - 480));}
+
+        body {margin: 3rem;}
+        
+        h1 {font-size: 2rem;}
+        h2 {font-size: 1.5rem;}
+        
+        h1, h2, p, ul, pre {
+            /* line-height */
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        time {
+            font-style: italic;
+        }
+
+        header, footer, section, article {
+            /* 2x line-height */
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        ul ul {
+            margin: 0;
+        }
         
         pre {font-family: "Input Mono", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas",
     "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;}
