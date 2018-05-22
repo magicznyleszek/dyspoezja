@@ -3,12 +3,12 @@ name: "dyspoezja"
 description: "Niewiersze"
 keywords: ""
 author: "Leszek Pietrzak"
-email: "smutnyleszek@gmail.com"
+email: "leszek@magicznyleszek.xyz"
 language: "pl-PL"
 
 # address settings
-rootSiteUrl: "http://smutnyleszek.com"
-baseurl: "http://dyspoezja.smutnyleszek.com"
+rootSiteUrl: "http://magicznyleszek.xyz"
+baseurl: "http://dyspoezja.magicznyleszek.xyz"
 
 # site configuration
 safe: true
