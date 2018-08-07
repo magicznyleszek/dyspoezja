@@ -14,15 +14,15 @@ title: Spis treści @ Dyspoezja
 <ul>
   {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
   {% for year in byYears %}
-  <li>
-    {{ year.name }}
+    <li>
+      {{ year.name }}
 
-    <ul>
-      {% for niewiersz in year.items %}
-      <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </li>
+      <ul>
+        {% for niewiersz in year.items %}
+        <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
   {% endfor %}
 </ul>
 
@@ -30,6 +30,6 @@ title: Spis treści @ Dyspoezja
 
 <ul>
   {% for niewiersz in site.niewiersze %}
-  <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
   {% endfor %}
 </ul>
