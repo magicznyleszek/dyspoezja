@@ -15,7 +15,7 @@ title: Spis treści @ Dyspoezja
   {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
   {% for year in byYears %}
     <li>
-      {{ year.name }}
+      {{ year.name }} ({{year.items.length}})
 
       <ul>
         {% for niewiersz in year.items %}
