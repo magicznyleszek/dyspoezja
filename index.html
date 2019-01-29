@@ -10,7 +10,7 @@ title: Dyspoezja
 <p>Te niewiersze pisze <a href="{{ site.rootSiteUrl }}">Leszek</a>.</p>
 
 {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
-  {% for year in byYears %}
+{% for year in byYears %}
   <p><time>{{ year.name }}</time></p>
 
   {% for niewiersz in year.items %}
