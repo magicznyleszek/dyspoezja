@@ -9,14 +9,16 @@ title: Dyspoezja
 
 <p>Te niewiersze pisze <a href="{{ site.rootSiteUrl }}">Leszek</a>.</p>
 
-{% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
-{% for year in byYears %}
-  <p><time>{{ year.name }}</time></p>
+<section>
+  {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
+  {% for year in byYears %}
+    <h2><time>{{ year.name }}</time></h2>
 
-  {% for niewiersz in year.items %}
+    {% for niewiersz in year.items %}
     <article>
-      <h2><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></h2>
+      <h3><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></h3>
       <pre>{{ niewiersz.content }}</pre>
     </article>
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+</section>
