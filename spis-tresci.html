@@ -19,7 +19,7 @@ title: Spis treści @ Dyspoezja
 
       <ul>
         {% for niewiersz in year.items %}
-        <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+        <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a> {% if niewiersz.note %}&nbsp;<i>*</i>{% endif %} </li>
         {% endfor %}
       </ul>
     </li>
@@ -30,6 +30,6 @@ title: Spis treści @ Dyspoezja
 
 <ul>
   {% for niewiersz in site.niewiersze %}
-    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a>{% if niewiersz.note %}&nbsp;<i>*</i>{% endif %}</li>
   {% endfor %}
 </ul>
