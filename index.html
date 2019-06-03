@@ -16,8 +16,8 @@ title: Dyspoezja
   {% for niewiersz in year.items %}
   <article>
     <h3><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></h3>
-    {% if niewiersz.note %}<p><small>{{ niewiersz.note }}</small></p>{% endif %}
     <pre>{{ niewiersz.content }}</pre>
+    {% if niewiersz.note %}<p><small>{{ niewiersz.note }}</small></p>{% endif %}
   </article>
   {% endfor %}
 {% endfor %}
