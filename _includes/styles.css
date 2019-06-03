@@ -30,7 +30,7 @@ a:active {
 
 html {
   min-height: 100%;
-  font-family: "Source Sans Pro", "Roboto", "PT Sans", "Droid Sans", "Fira Sans", "Work Sans", "Open Sans", "Noto Sans", "Hind", "Dosis", "Cabin", "Verdana", "Tahoma", sans-serif;
+  font-family: "Input Mono", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
   font-weight: 400;
   font-size: 100%;
   line-height: 1.5;
@@ -56,19 +56,12 @@ body {
   margin: 1.5rem;
 }
 
-h1 {
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-}
-
+h1,
+h2,
 h3 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 700;
 }
 
 h1, h2, p, ul, pre, article {
@@ -83,8 +76,4 @@ time {
 
 ul ul {
   margin: 0;
-}
-
-pre {
-  font-family: "Input Mono", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
 }
