@@ -9,7 +9,7 @@ title: Spis treści @ Dyspoezja
 
 <p>Przeglądaj {{ site.niewiersze.size }} niewierszy <a href="#123">rocznikowo</a> lub <a href="#abc">alfabetycznie</a>.</p>
 
-<h2>Rocznikowo&nbsp;<a name="123" href="#start">&uarr;</a></h2>
+<h2>Rocznikowo&nbsp;<a name="123" href="#start">.</a></h2>
 
 <ul>
   {% assign byYears = site.niewiersze | group_by: "year" | sort: "name" | reverse %}
@@ -19,17 +19,17 @@ title: Spis treści @ Dyspoezja
 
       <ul>
         {% for niewiersz in year.items %}
-        <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+        <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a>{% if niewiersz.note %}&nbsp;<i>*</i>{% endif %} </li>
         {% endfor %}
       </ul>
     </li>
   {% endfor %}
 </ul>
 
-<h2>Alfabetycznie&nbsp;<a name="abc" href="#start">&uarr;</a></h2>
+<h2>Alfabetycznie&nbsp;<a name="abc" href="#start">.</a></h2>
 
 <ul>
   {% for niewiersz in site.niewiersze %}
-    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a></li>
+    <li><a href="{{ niewiersz.url }}">{{ niewiersz.title }}</a>{% if niewiersz.note %}&nbsp;<i>*</i>{% endif %}</li>
   {% endfor %}
 </ul>
