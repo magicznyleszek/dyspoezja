@@ -1,1 +1,3 @@
 # dyspoezja
+
+Non-poetry poetry.
