@@ -1,31 +1,31 @@
 html {
-  background-color: honeydew;
-  color: darkslateblue;
+  background-color: mistyrose;
+  color: darkred;
 }
 
 a {
-  color: olivedrab;
+  color: crimson;
 }
 
 a:visited {
-  color: darkolivegreen;
+  color: firebrick;
 }
 
 a:hover {
-  color: seagreen;
+  color: red;
 }
 
 a:active {
-  color: mediumseagreen;
+  color: red;
 }
 
 :focus {
-  outline-color: olivedrab;
+  outline-color: crimson;
 }
 
 ::selection {
-  background-color: darkslateblue;
-  color: honeydew;
+  background-color: darkred;
+  color: mistyrose;
 }
 
 html {
