@@ -9,6 +9,7 @@ language: "pl-PL"
 # address settings
 rootSiteUrl: "http://magicznyleszek.xyz"
 baseurl: "http://dyspoezja.magicznyleszek.xyz"
+sourceUrl: "https://github.com/magicznyleszek/dyspoezja"
 
 # site configuration
 safe: true
