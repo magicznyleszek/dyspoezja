@@ -1,14 +1,14 @@
 html {
   background-color: mistyrose;
-  color: darkred;
+  color: rebeccapurple;
 }
 
 a {
-  color: darkred;
+  color: rebeccapurple;
 }
 
 a:visited {
-  color: darkred;
+  color: rebeccapurple;
 }
 
 a:hover {
@@ -24,13 +24,13 @@ a:active {
 }
 
 ::selection {
-  background-color: darkred;
+  background-color: rebeccapurple;
   color: mistyrose;
 }
 
 html {
   min-height: 100%;
-  font-family: "Input Mono", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
+  font-family: "Input", "Office Code Pro", "Source Code Pro", "Fira Mono", "Inconsolata", "Monaco", "Consolas", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
   font-weight: 400;
   font-size: 100%;
   line-height: 1.5;
