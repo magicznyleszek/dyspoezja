@@ -9,3 +9,5 @@ npm-debug.log
 # OS generated
 .DS_Store
 Thumbs.db
+
+*sublime-*
