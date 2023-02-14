@@ -1,6 +1,6 @@
 ---
 title: Nieoczekiwana wizyta w lesie
-date: 2023-02-14
+year: 2023
 ---
 
 Tu zapach świerków
