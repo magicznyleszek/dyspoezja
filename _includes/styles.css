@@ -1,5 +1,5 @@
 html {
-  background-color: mistyrose;
+  background-color: thistle;
   color: rebeccapurple;
 }
 
@@ -19,13 +19,17 @@ a:active {
   color: red;
 }
 
-:focus {
+:focus-visible {
   outline-color: crimson;
+  border-radius: 4px;
+  outline-width: 4px;
+  outline-offset: 2px;
+  outline-style: solid;
 }
 
 ::selection {
   background-color: rebeccapurple;
-  color: mistyrose;
+  color: thistle;
 }
 
 html {
