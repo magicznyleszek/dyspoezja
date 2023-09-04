@@ -1,7 +1,7 @@
 {
   "name": "Dyspoezja",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "Niewiersze",
   "repository": {
     "type": "git",
@@ -11,9 +11,9 @@
   "license": "CC0 4.0 BY-NC-ND",
   "bugs": {
     "url": "https://github.com/magicznyleszek/dyspoezja/issues",
-    "email": "leszek@magicznyleszek.xyz"
+    "email": "zefirefemera@proton.me"
   },
-  "homepage": "https://github.com/magicznyleszek/dyspoezja",
+  "homepage": "https://dyspoezja.pl",
   "scripts": {
     "serve": "npm run jekyll-serve",
     "jekyll-build": "jekyll build",

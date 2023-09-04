@@ -2,13 +2,13 @@
 name: "dyspoezja"
 description: "Niewiersze"
 keywords: ""
-author: "Leszek Pietrzak"
-email: "leszek@magicznyleszek.xyz"
+author: "Zefir Efemera"
+email: "zefirefemera@proton.me"
 language: "pl-PL"
 
 # address settings
-rootSiteUrl: "http://magicznyleszek.xyz"
-baseurl: "http://dyspoezja.magicznyleszek.xyz"
+rootSiteUrl: "http://zefirefemera.xyz"
+baseurl: "http://dyspoezja.pl"
 sourceUrl: "https://github.com/magicznyleszek/dyspoezja"
 
 # site configuration
