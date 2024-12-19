@@ -7,8 +7,8 @@ email: "zefirefemera@proton.me"
 language: "pl-PL"
 
 # address settings
-rootSiteUrl: "http://zefirefemera.xyz"
-baseurl: "http://dyspoezja.pl"
+rootSiteUrl: "https://zefirefemera.xyz"
+baseurl: "https://dyspoezja.pl"
 sourceUrl: "https://github.com/magicznyleszek/dyspoezja"
 
 # site configuration
